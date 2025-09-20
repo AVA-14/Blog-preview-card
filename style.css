@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsla(0, 0%, 12%, 1.00);
+}
+main {
+    height: 100vh;
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 7px 7px 1px 1px;
+    border: 1px solid;
+}
+main .container div:nth-child(1) > img {
+    width: 100%;
+    border-radius: 10px;
+}
+main .container .learning {
+    background-color: var(--Yellow);
+    padding: 5px 15px;
+    margin: 15px 0;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main .container h2 > a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--Gray-950);
+    padding: 15px 0;
+}
+main .container h2 > a:hover {
+    color: var(--Yellow);
+}
+main .container > p:nth-child(5) {
+    font-size: 15px;
+    color: var(--Gray-500);
+    line-height: 1.5;
+}
+main .container > div:last-child {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 10px;
+}
+main .container >div:last-child > img {
+    width: 45px;
+    margin-right: 12px;
+}
